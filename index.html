@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html> 
   <head>
-    <title>Processing.JS inside Webpages: Template</title> 
+    <title>Processing.JS inside Webpages: Template</title>
+    <style>
+	body {
+	    margin: 0;
+	}
+    </style>
   </head>
   <body>
 	<!--This draws the canvas on the webpage -->
@@ -14,7 +19,7 @@
   <script>
   var programCode = function(processingInstance) {
     with (processingInstance) {
-      size(800, 800); 
+      size(innerWidth, innerHeight); 
       frameRate(30);
         
       // Paste code from Khan Academy here:
