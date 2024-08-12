@@ -9,25 +9,6 @@
     </style>
   </head>
   <body>
-    <canvas id="mycanvas"></canvas> 
+    <iframe src="https://editor.p5js.org/flying-flag/full/-KVJMp24X"></iframe>
   </body>
-  <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-  <script type="text/p5">
-  	function setup() {
-  	createCanvas(400, 400);
-	}
-
-	var frame = 0;
-	var x = 0;
-	var y = 0;
-
-	function draw() {
- 	background(255);
-  	fill(255, 0, 0);
-  	var x = sin(frame/10)*100+200
-  	var y = cos(frame/10)*100+200
-  	circle(x, y, 50);
-  	frame++;
-}
-  </script>
 </html>
